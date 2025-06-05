@@ -1,0 +1,42 @@
+{
+    "httpMethod": "GET",
+    "headers": {
+        "Content-Type": "application/json",
+        "Origin": "http://localhost:3000/"
+    },
+    "queryStringParameters": {
+        "currency": "usd"
+    },
+    "pathParameters": null,
+    "requestContext": {
+        "resourceId": "123456",
+        "resourcePath": "/crypto",
+        "httpMethod": "GET",
+        "extendedRequestId": "request-id",
+        "requestTime": "12/Mar/2021:19:03:58 +0000",
+        "path": "/crypto",
+        "accountId": "123456789012",
+        "stage": "prod",
+        "domainPrefix": "test",
+        "requestTimeEpoch": 1615584238000,
+        "requestId": "c1234567-89ab-cdef-1234-56789abcdef0",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "sourceIp": "127.0.0.1",
+            "principalOrgId": null,
+            "accessKey": null,
+            "secretKey": null,
+            "sessionToken": null,
+            "user": null,
+            "userAgent": "Custom User Agent String",
+            "userArn": null
+        },
+        "domainName": "test.execute-api.eu-west-1.amazonaws.com",
+        "apiId": "abcdefghij"
+    },
+    "body": null,
+    "isBase64Encoded": false
+}

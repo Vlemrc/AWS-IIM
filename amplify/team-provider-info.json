@@ -1,0 +1,47 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-aws2025-dev-582fa-authRole",
+      "UnauthRoleArn": "arn:aws:iam::150734033780:role/amplify-aws2025-dev-582fa-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::150734033780:role/amplify-aws2025-dev-582fa-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-aws2025-dev-582fa-deployment",
+      "UnauthRoleName": "amplify-aws2025-dev-582fa-unauthRole",
+      "StackName": "amplify-aws2025-dev-582fa",
+      "StackId": "arn:aws:cloudformation:eu-west-1:150734033780:stack/amplify-aws2025-dev-582fa/3284f770-411c-11f0-b479-0668e181e863",
+      "AmplifyAppId": "d1lhenw3wiop2g"
+    },
+    "categories": {
+      "storage": {
+        "users": {},
+        "cryptoPrices": {},
+        "cryptoExportBucket": {}
+      },
+      "function": {
+        "saveUser": {
+          "deploymentBucketName": "amplify-aws2025-dev-582fa-deployment",
+          "s3Key": "amplify-builds/saveUser-5748653278466a754575-build.zip"
+        },
+        "getUser": {
+          "deploymentBucketName": "amplify-aws2025-dev-582fa-deployment",
+          "s3Key": "amplify-builds/getUser-776b37476d7977345246-build.zip"
+        },
+        "cryptotest": {
+          "deploymentBucketName": "amplify-aws2025-dev-582fa-deployment",
+          "s3Key": "amplify-builds/cryptotest-795071617a7234586265-build.zip"
+        },
+        "signeData": {
+          "deploymentBucketName": "amplify-aws2025-dev-582fa-deployment",
+          "s3Key": "amplify-builds/signeData-326d6e682b7579713279-build.zip"
+        }
+      },
+      "api": {
+        "users": {},
+        "signeDataAPI": {}
+      },
+      "auth": {
+        "aws20256d7a3586": {}
+      }
+    }
+  }
+}

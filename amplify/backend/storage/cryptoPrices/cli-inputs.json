@@ -1,0 +1,14 @@
+{
+  "resourceName": "cryptoPrices",
+  "tableName": "cryptoPrices",
+  "partitionKey": {
+    "fieldName": "crypto_id",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "timestamp",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

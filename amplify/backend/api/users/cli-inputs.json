@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/saveUser": {
+      "name": "/saveUser",
+      "lambdaFunction": "saveUser",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/getUser": {
+      "name": "/getUser",
+      "lambdaFunction": "saveUser",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

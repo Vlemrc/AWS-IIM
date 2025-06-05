@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "storage": {
+      "cryptoPrices": [
+        "create",
+        "read",
+        "update"
+      ],
+      "cryptoExportBucket": [
+        "create",
+        "read",
+        "update"
+      ]
+    },
+    "function": {
+      "cryptotest": [
+        "create",
+        "read",
+        "update"
+      ]
+    },
+    "api": {
+      "users": [
+        "read"
+      ]
+    },
+    "auth": {
+      "aws20256d7a3586": [
+        "create",
+        "read",
+        "update"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
